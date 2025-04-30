@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+
+
+.all-product{
+    padding: 0 5vw;
+}
+.breadcrumb {
+    margin-top: 20px;
+    margin-left: 2%;
+}
+ 
+div h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.small-logo {
+  margin-top:10vh;
+  margin-left: 2%;
+ 
+
+
+}
+.all-cards{
+    padding-top: 60px;
+ 
+
+
+}
+.full-card{
+
+    width: 253px;
+
+}
+
+
+.card {
+    width: 250px ;
+    height: auto;
+  
+ 
+   
+}
+
+.card::after {
+    content: "Add to bag";
+
+    
+    padding-top: 0.25em;
+    padding-left: 1.25em;
+   
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background: black;
+    color: #fff;
+    height: 2.5em;
+    width: 100%;
+    transition: all 90ms;
+    font-weight: 60;
+    text-transform: uppercase;
+    opacity: 0;
+    padding-bottom: 50px;
+    behavior: smooth;
+   
+
+  }
+
+  .card:hover::after {
+    
+    bottom: 0;
+    opacity: 1;
+  }
+  .card:active {
+    transform: scale(0.98);
+  }
+
+  .card:active::after {
+    content: "Added !";
+    height: 3.125em;
+  }
+  
+  
+
+
+
+
+    
+/* colors */
+.colors img {
+    border-radius: 50%;
+    margin: 5px;
+   
+}
+.colors img:hover{
+    cursor: pointer;
+}
+
+/* heading */
+
+.heading{
+    margin-top: 15px;
+
+    
+}
+
+/* button */
+
+.btn button{
+border: solid lightgreen;
+color: lightgreen;
+
+}
+.btn button:hover{
+    border: solid lightgreen;
+    color: lightgreen;
+    
+    
+}
+
+.btn img{
+    width: 50px;
+    margin-left: 30px;
+  
+
+
+}
+.btn span{
+    font-size: 10px;
+}
+
+.line-1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px ;
+    
+}
+
+.line2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.line3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+
+
+.last-button  {
+    padding-bottom: 300px;
+    padding-top: 30px;
+}
+
+.last-button button{
+    padding: 30px;
+    position: relative;
+    left: 500px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    
+    
+}
+.last-button button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+    
+
+
+
+
